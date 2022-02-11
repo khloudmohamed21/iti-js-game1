@@ -1,0 +1,53 @@
+ 
+.game {
+  
+   width: 455px;
+   text-align: center;
+   margin: auto;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white;
+   font-weight: 900;
+   font-size: xx-large;
+}
+.boardTitle{
+width: 455px;
+background-color: #d46763;
+margin:15px 0;
+padding:15px 0;
+
+}
+
+span{
+    color: #cf9d52;
+}
+.block{
+    width: 120px;
+    height: 120px;
+    background-color: #d46763;
+    float: left;
+    margin:4px;
+    font-size: xx-large;
+    
+   
+    
+}
+.resize{
+    padding-left:30px;
+}
+.block:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+button {
+    background-color: #e67db7; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size:25px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
